@@ -32,6 +32,7 @@ public class UserController {
 
     @GetMapping("/user")
     public List<User> allUsers(){
+
         return uService.allUsers();
     }
 }
